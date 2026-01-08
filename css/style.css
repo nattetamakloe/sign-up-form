@@ -62,7 +62,11 @@ img {
 
 .logo-text {
   font-family: norse-bold;
-  font-size: 3rem;
+  font-size: 5rem;
+  color: white;
+}
+
+.credits {
   color: white;
 }
 
