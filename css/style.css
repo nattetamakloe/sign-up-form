@@ -1,0 +1,63 @@
+@import "modern-normalize";
+
+:root {
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+figure,
+p,
+ol,
+ul {
+  margin: 0;
+}
+
+ol[role="list"],
+ul[role="list"] {
+  list-style: none;
+  padding-inline: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+img {
+  display: block;
+  max-inline-size: 100%;
+}
+
+.main {
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+}
+
+.header {
+  width: 35vw;
+  background-image: url("../assets/images/green-leaf.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  height: 10vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+
+}
+
+
+.form-field {
+  width: 65vw;
+}
