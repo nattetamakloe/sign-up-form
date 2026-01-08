@@ -52,22 +52,33 @@ img {
   background-size: cover;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 .logo {
-  height: 10vh;
   background-color: rgba(0, 0, 0, 0.5);
   display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 30vh;
 }
 
+.logo-image {
+  object-fit: contain;
+  width: 5em;
+}
 .logo-text {
   font-family: norse-bold;
-  font-size: 5rem;
+  font-size: 5em;
   color: white;
 }
 
 .credits {
   color: white;
+  align-self: center;
+  
 }
 
 
