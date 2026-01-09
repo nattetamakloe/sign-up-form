@@ -1,7 +1,13 @@
 @import "modern-normalize";
+
 @font-face {
   font-family: norse-bold;
   src: url(../assets/fonts/Norsebold.otf);
+}
+
+@font-face {
+  font-family: roboto;
+  src: url(../assets/fonts/Roboto-VariableFont_wdth\,wght.ttf);
 }
 
 :root {
@@ -40,10 +46,11 @@ img {
   max-inline-size: 100%;
 }
 
-.main {
+.app {
   min-height: 100vh;
   min-width: 100vw;
   display: flex;
+  font-family: roboto;
 }
 
 .header {
@@ -80,12 +87,54 @@ img {
   align-self: center;
   
 }
-.form-field {
+.main {
   width: 65vw;
+  padding-top: 20vh;
+  padding-bottom: 20vh;
   display: flex;
   flex-direction: column;
+  background-color: rgb(249, 250, 251);
+}
+
+.hero {
+  padding-bottom: 8vh;
+  padding-left: 3vw;
+  padding-right: 15vw;
 }
 
 .hero-text {
   font-weight: bold;
+  font-size: 1.3rem;
+  font-family: roboto;
+}
+
+.form-area {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.form-field {
+  display: flex;
+  background-color: white;
+  flex-wrap: wrap;
+  padding-left: 3vw;
+  padding-right: 15vw;
+}
+
+ 
+.form-header {
+  width: 100vw;
+  font-size: 1.3em;
+}
+
+.input-field {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex: 0 0 50%;
+}
+
+label input {
+  width: 50vw;
 }
