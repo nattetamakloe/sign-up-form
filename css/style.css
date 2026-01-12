@@ -76,6 +76,7 @@ img {
   object-fit: contain;
   width: 5em;
 }
+
 .logo-text {
   font-family: norse-bold;
   font-size: 5em;
@@ -85,8 +86,9 @@ img {
 .credits {
   color: white;
   align-self: center;
-  
+
 }
+
 .main {
   width: 65vw;
   padding-top: 20vh;
@@ -111,30 +113,68 @@ img {
 .form-area {
   display: flex;
   flex-direction: column;
-  
+
 }
 
 .form-field {
   display: flex;
   background-color: white;
   flex-wrap: wrap;
+  column-gap: 5vw;
+  row-gap: 1vh;
+  padding-top: 2vh;
+  padding-bottom: 5vh;
   padding-left: 3vw;
   padding-right: 15vw;
+  box-shadow: 0px 4px 5px 0px #D1D1D1;
 }
 
- 
+
 .form-header {
   width: 100vw;
   font-size: 1.3em;
+  font-weight: 700;
+  color: rgb(51, 53, 54);
 }
 
 .input-field {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  flex: 0 0 50%;
+  flex: 1 1 40%;
+
+
 }
 
-label input {
-  width: 50vw;
+label {
+  font-weight: bold;
+  font-size: 0.8rem;
+  color: rgb(51, 53, 54);
+}
+
+input {
+  border: solid #E5E7EB 1px;
+  border-radius: 3px;
+}
+
+.button {
+  padding-top: 4vh;
+  padding-bottom: 4vh;
+  padding-left: 3vw;
+  padding-right: 15vw;
+}
+
+button {
+  padding: 20px 50px;
+  background-color: #596D48;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  box-shadow: 2px 2px 0px #8E9998;
+}
+
+.sign-in {
+  padding-left: 3vw;
+  padding-right: 15vw;
 }
